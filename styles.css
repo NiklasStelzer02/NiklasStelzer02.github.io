@@ -99,6 +99,7 @@ h2 { font-family: var(--serif); font-size: 27px; letter-spacing: -.04em; line-he
 }
 @media(max-width: 480px) {
   .hero-intro { display: block; }
+  .hero-intro-copy { display: contents; }
   .hero-photo { float: right; width: 94px; height: 118px; margin: 2px 0 10px 16px; }
   .hero-intro::after { content: ""; display: block; clear: both; }
   .hero-actions { clear: both; }
